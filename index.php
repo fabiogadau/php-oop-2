@@ -5,13 +5,28 @@
          Eseguire degli output istanziando gli oggetti delle varie classi
       */
 
-      // Includes Products
-      @include_once __DIR__ . '/classes/informatica.php';
-      @include_once __DIR__ . '/classes/elettrodomestici.php';
+   // Includes Products Database
+   @include_once __DIR__ . '/database-prodotti.php';
+?>
 
-      // Instances
-      $prodotto1 = new ComputerTech('22fw', 'hp', 128, 'PC Monitor');
-      echo $prodotto1->printDetails();
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>PHP OOP 2</title>
+</head>
+<body>
 
-      $prodotto2 = new Household('BWE81284X', 'indesit', 630, 'Washing machine');
-      echo $prodotto2->printDetails(); 
+   <header>
+      <h1>Warehouse</h1>
+   </header>
+
+   <div class="prodotto">
+      <h2>Product Name: <?php echo $prodotto1->name ?></h2>
+      <h3>Product Brand: <?php echo $prodotto1->brand ?></h3>
+      <p>Product Price: <?php echo $prodotto1->price ?></p>
+      <p>Product Type: <?php echo $prodotto1->type ?> €</p>
+   </div>
+</body>
+</html>
