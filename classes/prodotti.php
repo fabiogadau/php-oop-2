@@ -17,9 +17,9 @@
 
       // Methods
       public function printDetails(){
-         echo "<h2>$this->name</h2>
-               <h3>$this->brand</h3>
-               <p>$this->price €</p>
-               <p>$this->type</p>";
+         echo "<h2><strong>Product name: </strong>$this->name</h2>
+               <h3><strong>Brand: </strong>$this->brand</h3>
+               <p><strong>Price: </strong>$this->price €</p>
+               <p><strong>Type: </strong>$this->type</p>";
       }
    }

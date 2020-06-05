@@ -5,6 +5,5 @@
       @include_once __DIR__ . '/classes/elettrodomestici.php';
 
       // Instances
-      $prodotto1 = new ComputerTech('22fw', 'hp', 128, 'PC Monitor');
-
-      $prodotto2 = new Household('BWE81284X', 'indesit', 630, 'Washing machine'); 
+      $product1 = new ComputerTech('22fw', 'hp', 128, 'PC Monitor', 'hdmi');
+      $product2 = new Household('BWE81284X', 'indesit', 630, 'Washing machine', 'A++');

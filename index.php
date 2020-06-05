@@ -22,11 +22,17 @@
       <h1>Warehouse</h1>
    </header>
 
-   <div class="prodotto">
-      <h2>Product Name: <?php echo $prodotto1->name ?></h2>
-      <h3>Product Brand: <?php echo $prodotto1->brand ?></h3>
-      <p>Product Price: <?php echo $prodotto1->price ?></p>
-      <p>Product Type: <?php echo $prodotto1->type ?> €</p>
-   </div>
+   <main>
+      <div class="prodotto">
+         <?php echo $product1->printDetails(); ?>
+         <p><strong>Connectivity: </strong><?php echo $product1->connectivity ?></p>
+      </div>
+      
+      <div class="prodotto">
+         <?php echo $product1->printDetails(); ?>
+         <p>Energy rating: <?php echo $product2->energy_rating ?></p>
+      </div>
+   </main>
+
 </body>
 </html>
