@@ -46,7 +46,7 @@
 
       // Methods
       public function printDetails(){
-         echo "<h2><strong>Product name: </strong>$this->name</h2>
+         echo "<h3><strong>Product name: </strong><br>$this->name</h3>
                <h3><strong>ID Code: </strong>$this->id_code</h3>
                <ul>
                   <li><strong>Brand: </strong>$this->brand</li>

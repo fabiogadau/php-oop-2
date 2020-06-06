@@ -21,11 +21,14 @@
 </head>
 <body>
 
+   <!-- APP -->
    <div id="app">
+      <!-- Title -->
       <header>
          <h1>Warehouse</h1>
       </header>
 
+      <!-- Products -->
       <main id="products">
          <div class="product">
             <div class="product-details">
@@ -38,19 +41,10 @@
 
          <div class="product">
             <div class="product-details">
-               <?php echo $product2->printDetails(); ?>
+               <?php echo $product5->printDetails(); ?>
             </div>
             <div class="product-location">
-               <?php echo $product2->getLocation(); ?>
-            </div>
-         </div>
-
-         <div class="product">
-            <div class="product-details">
-               <?php echo $product1->printDetails(); ?>
-            </div>
-            <div class="product-location">
-               <?php echo $product1->getLocation(); ?>
+               <?php echo $product5->getLocation(); ?>
             </div>
          </div>
 
@@ -65,77 +59,51 @@
 
          <div class="product">
             <div class="product-details">
-               <?php echo $product1->printDetails(); ?>
+               <?php echo $product6->printDetails(); ?>
             </div>
             <div class="product-location">
-               <?php echo $product1->getLocation(); ?>
+               <?php echo $product6->getLocation(); ?>
             </div>
          </div>
 
          <div class="product">
             <div class="product-details">
-               <?php echo $product2->printDetails(); ?>
+               <?php echo $product3->printDetails(); ?>
             </div>
             <div class="product-location">
-               <?php echo $product2->getLocation(); ?>
+               <?php echo $product3->getLocation(); ?>
             </div>
          </div>
 
          <div class="product">
             <div class="product-details">
-               <?php echo $product1->printDetails(); ?>
+               <?php echo $product7->printDetails(); ?>
             </div>
             <div class="product-location">
-               <?php echo $product1->getLocation(); ?>
+               <?php echo $product7->getLocation(); ?>
             </div>
          </div>
 
          <div class="product">
             <div class="product-details">
-               <?php echo $product2->printDetails(); ?>
+               <?php echo $product4->printDetails(); ?>
             </div>
             <div class="product-location">
-               <?php echo $product2->getLocation(); ?>
+               <?php echo $product4->getLocation(); ?>
             </div>
          </div>
 
          <div class="product">
             <div class="product-details">
-               <?php echo $product1->printDetails(); ?>
+               <?php echo $product8->printDetails(); ?>
             </div>
             <div class="product-location">
-               <?php echo $product1->getLocation(); ?>
-            </div>
-         </div>
-
-         <div class="product">
-            <div class="product-details">
-               <?php echo $product2->printDetails(); ?>
-            </div>
-            <div class="product-location">
-               <?php echo $product2->getLocation(); ?>
-            </div>
-         </div>
-
-         <div class="product">
-            <div class="product-details">
-               <?php echo $product1->printDetails(); ?>
-            </div>
-            <div class="product-location">
-               <?php echo $product1->getLocation(); ?>
-            </div>
-         </div>
-
-         <div class="product">
-            <div class="product-details">
-               <?php echo $product2->printDetails(); ?>
-            </div>
-            <div class="product-location">
-               <?php echo $product2->getLocation(); ?>
+               <?php echo $product8->getLocation(); ?>
             </div>
          </div>
       </main>
 
+      <!-- Footer -->
       <footer>
          <span>By Fabio</span>
       </footer>
