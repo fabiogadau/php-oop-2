@@ -10,7 +10,7 @@
 
       // Methods
       public function getLocation(){
-         echo "<h3>Object Location</h3>
+         echo "<h3>Product Location</h3>
                <ul>
                   <li><strong>Lane: </strong>$this->lane</li>
                   <li><strong>Column: </strong>$this->column</li>
