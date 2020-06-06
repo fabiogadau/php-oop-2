@@ -15,24 +15,131 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>PHP OOP 2</title>
+   <!-- Stylesheet -->
+   <link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600&display=swap">
+   <link rel="stylesheet" href="assets/styles/main.css">
 </head>
 <body>
 
-   <header>
-      <h1>Warehouse</h1>
-   </header>
+   <div id="app">
+      <header>
+         <h1>Warehouse</h1>
+      </header>
 
-   <main>
-      <div class="prodotto">
-         <?php echo $product1->printDetails(); ?>
-         <?php echo $product1->getPosition(); ?>
-      </div>
-      
-      <div class="prodotto">
-         <?php echo $product2->printDetails(); ?>
-         <?php echo $product2->getPosition(); ?>
-      </div>
-   </main>
+      <main id="products">
+         <div class="product">
+            <div class="product-details">
+               <?php echo $product1->printDetails(); ?>
+            </div>
+            <div class="product-location">
+               <?php echo $product1->getLocation(); ?>
+            </div>
+         </div>
+
+         <div class="product">
+            <div class="product-details">
+               <?php echo $product2->printDetails(); ?>
+            </div>
+            <div class="product-location">
+               <?php echo $product2->getLocation(); ?>
+            </div>
+         </div>
+
+         <div class="product">
+            <div class="product-details">
+               <?php echo $product1->printDetails(); ?>
+            </div>
+            <div class="product-location">
+               <?php echo $product1->getLocation(); ?>
+            </div>
+         </div>
+
+         <div class="product">
+            <div class="product-details">
+               <?php echo $product2->printDetails(); ?>
+            </div>
+            <div class="product-location">
+               <?php echo $product2->getLocation(); ?>
+            </div>
+         </div>
+
+         <div class="product">
+            <div class="product-details">
+               <?php echo $product1->printDetails(); ?>
+            </div>
+            <div class="product-location">
+               <?php echo $product1->getLocation(); ?>
+            </div>
+         </div>
+
+         <div class="product">
+            <div class="product-details">
+               <?php echo $product2->printDetails(); ?>
+            </div>
+            <div class="product-location">
+               <?php echo $product2->getLocation(); ?>
+            </div>
+         </div>
+
+         <div class="product">
+            <div class="product-details">
+               <?php echo $product1->printDetails(); ?>
+            </div>
+            <div class="product-location">
+               <?php echo $product1->getLocation(); ?>
+            </div>
+         </div>
+
+         <div class="product">
+            <div class="product-details">
+               <?php echo $product2->printDetails(); ?>
+            </div>
+            <div class="product-location">
+               <?php echo $product2->getLocation(); ?>
+            </div>
+         </div>
+
+         <div class="product">
+            <div class="product-details">
+               <?php echo $product1->printDetails(); ?>
+            </div>
+            <div class="product-location">
+               <?php echo $product1->getLocation(); ?>
+            </div>
+         </div>
+
+         <div class="product">
+            <div class="product-details">
+               <?php echo $product2->printDetails(); ?>
+            </div>
+            <div class="product-location">
+               <?php echo $product2->getLocation(); ?>
+            </div>
+         </div>
+
+         <div class="product">
+            <div class="product-details">
+               <?php echo $product1->printDetails(); ?>
+            </div>
+            <div class="product-location">
+               <?php echo $product1->getLocation(); ?>
+            </div>
+         </div>
+
+         <div class="product">
+            <div class="product-details">
+               <?php echo $product2->printDetails(); ?>
+            </div>
+            <div class="product-location">
+               <?php echo $product2->getLocation(); ?>
+            </div>
+         </div>
+      </main>
+
+      <footer>
+         <span>By Fabio</span>
+      </footer>
+   </div>
 
 </body>
 </html>

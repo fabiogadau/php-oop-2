@@ -15,6 +15,7 @@
 
       // Partial Override
       public function printDetails(){
-         return parent::printDetails() . "<p><strong>Connectivity: </strong> $this->connectivity </p>";
+            return parent::printDetails() . "  <li><strong>Connectivity: </strong> $this->connectivity </li>
+         </ul>";
       }
    }

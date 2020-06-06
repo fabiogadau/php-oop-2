@@ -9,12 +9,14 @@
       public $position;
 
       // Methods
-      public function getPosition(){
+      public function getLocation(){
          echo "<h3>Object Location</h3>
-               <p><strong>Lane: </strong>$this->lane</p>
-               <p><strong>Column: </strong>$this->column</p>
-               <p><strong>Shelf: </strong>$this->shelf</p>
-               <p><strong>Position: </strong>$this->position</p>";
+               <ul>
+                  <li><strong>Lane: </strong>$this->lane</li>
+                  <li><strong>Column: </strong>$this->column</li>
+                  <li><strong>Shelf: </strong>$this->shelf</li>
+                  <li><strong>Position: </strong>$this->position</li>
+               </ul>";
       }
    }
 
@@ -46,8 +48,9 @@
       public function printDetails(){
          echo "<h2><strong>Product name: </strong>$this->name</h2>
                <h3><strong>ID Code: </strong>$this->id_code</h3>
-               <p><strong>Brand: </strong>$this->brand</p>
-               <p><strong>Price: </strong>$this->price €</p>
-               <p><strong>Type: </strong>$this->type</p>";
+               <ul>
+                  <li><strong>Brand: </strong>$this->brand</li>
+                  <li><strong>Price: </strong>$this->price €</li>
+                  <li><strong>Type: </strong>$this->type</li>";
       }
    }

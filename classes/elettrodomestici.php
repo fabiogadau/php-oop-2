@@ -15,6 +15,7 @@
 
       // Partial Override
       public function printDetails(){
-         return parent::printDetails() . "<p><strong>Energy rating: </strong> $this->energy_rating </p>";
+            return parent::printDetails() . "  <li><strong>Energy rating: </strong> $this->energy_rating </li>
+         </ul>";
       }
    }
