@@ -25,12 +25,12 @@
    <main>
       <div class="prodotto">
          <?php echo $product1->printDetails(); ?>
-         <p><strong>Connectivity: </strong><?php echo $product1->connectivity ?></p>
+         <?php echo $product1->getPosition(); ?>
       </div>
       
       <div class="prodotto">
-         <?php echo $product1->printDetails(); ?>
-         <p>Energy rating: <?php echo $product2->energy_rating ?></p>
+         <?php echo $product2->printDetails(); ?>
+         <?php echo $product2->getPosition(); ?>
       </div>
    </main>
 
